@@ -1,0 +1,24 @@
+@import url("reset.css");
+span {
+  color: blue;
+}
+a {
+  color: rgb(77, 8, 8);
+}
+.title {
+  color: darkred;
+  font-size: 50px;
+}
+.subtitle {
+  color: darkred;
+}
+#some-list {
+  color: darkcyan;
+}
+.text,
+.preview {
+  color: darkcyan;
+}
+div.info {
+  color: darkblue;
+}
