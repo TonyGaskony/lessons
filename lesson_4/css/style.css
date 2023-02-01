@@ -1,0 +1,52 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.chapter {
+  font-family: "Oswald";
+  font-size: 50px;
+  font-weight: 700;
+  color: #cb00009c;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #000, 1px 2px 2px red;
+}
+.image,
+.footer_logo {
+  text-align: center;
+}
+
+.heading {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  color: #a81414c3;
+  text-indent: 7px;
+  letter-spacing: 2px;
+}
+
+.text {
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  text-indent: 4px;
+  word-spacing: 5px;
+}
+
+span {
+  color: rgb(23, 23, 118);
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
